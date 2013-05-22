@@ -1,0 +1,24 @@
+{
+    "name": "jjs/system-settings-bundle",
+    "description": "User configurable system settings in persistant storage",
+    "keywords": ["configuration", "settings", "bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name":  "Josiah",
+            "email": "josiah@jjs.id.au",
+            "role":  "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {"JJs\\Bundle\\SystemSettingsBundle": ""}
+    },
+    "target-dir": "JJs/Bundle/SystemSettingsBundle",
+    "minimum-stability": "dev",
+    "require": {
+        "php": "~5.4",
+        "symfony/http-kernel": "~2.2",
+        "symfony/options-resolver": "~2.2",
+        "doctrine/common": "~2.3"
+    }
+}
